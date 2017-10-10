@@ -1,0 +1,16 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "cucumber test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marina",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^2.33.1",
+    "cucumber": "^3.0.4",
+    "selenium-webdriver": "^3.6.0"
+  }
+}
