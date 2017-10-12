@@ -12,5 +12,8 @@
     "chromedriver": "^2.33.1",
     "cucumber": "^3.0.4",
     "selenium-webdriver": "^3.6.0"
-  }
+  },
+ "scripts": {
+  "go": "node_modules\\.bin\\cucumber-js features/featureOne.feature"
+ }
 }

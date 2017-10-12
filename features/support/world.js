@@ -7,6 +7,7 @@ function CustomWorld() {
         .forBrowser('chrome')
         .build();
     global.By = seleniumWebdriver.By;
+    global.until = seleniumWebdriver.until
 
 }
 
