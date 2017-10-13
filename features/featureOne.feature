@@ -9,5 +9,5 @@ Feature: As a User I test homepage of Foodbank site
   @category
   Scenario: See products of Aceon category
    When I go to 'http://foodbank.d5.aisnovations.com/'
-   When I click 'Aceon' link
+   When I click 'Aceon' element
    Then I should see 'Products: Aceon' title

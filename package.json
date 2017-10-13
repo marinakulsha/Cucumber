@@ -4,16 +4,14 @@
   "description": "cucumber test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "go": "node_modules\\.bin\\cucumber-js features/featureTwo.feature"
   },
   "author": "Marina",
   "license": "ISC",
   "dependencies": {
+    "chai": "^4.1.2",
     "chromedriver": "^2.33.1",
     "cucumber": "^3.0.4",
     "selenium-webdriver": "^3.6.0"
-  },
- "scripts": {
-  "go": "node_modules\\.bin\\cucumber-js features/featureOne.feature"
- }
+  }
 }

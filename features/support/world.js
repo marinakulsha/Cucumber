@@ -1,6 +1,7 @@
 require('chromedriver');
 let seleniumWebdriver = require('selenium-webdriver');
 let {defineSupportCode} = require('cucumber');
+let {expect} = require('chai');
 
 function CustomWorld() {
     this.driver = new seleniumWebdriver.Builder()
